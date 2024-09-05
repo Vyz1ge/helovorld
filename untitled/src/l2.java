@@ -27,18 +27,18 @@ public class l2 {
             }
         }
         //3
-        Scanner scz = new Scanner(System.in);
-        int a = scz.nextInt();
-        int b = scz.nextInt();
-        while (a <= b) {
-            if (a % 5 == 0 && a % 10 != 0) {
-                System.out.println(a);
+        Scanner sczaa = new Scanner(System.in);
+        int ah = sczaa.nextInt();
+        int bh = sczaa.nextInt();
+        while (ah <= bh) {
+            if (ah % 5 == 0 && ah % 10 != 0) {
+                System.out.println(ah);
             }
             a++;
         }
         //4
-        Scanner scx = new Scanner(System.in);
-        double n = scx.nextInt();
+        Scanner scxzz = new Scanner(System.in);
+        double n = scxzz.nextInt();
         if (n >= 5){
             System.out.println((n*n-10)/(n+7));
         } else if (n>-3 && n<5) {
