@@ -13,7 +13,7 @@ public class l6 {
         BernarA.info();
         System.out.println(IlonCar.ydd(2024));
         System.out.println(BernarA.ydd(2024));
-        Airplane buggttiair = new Airplane(200000,1500,2020,"MORGENSTERN");
+        Airplane buggttiair = new Airplane(200000,1500,2020,"M");
         buggttiair.info();
         buggttiair.fillUP(1000);
         buggttiair.info();
