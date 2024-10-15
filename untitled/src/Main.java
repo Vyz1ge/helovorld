@@ -1,15 +1,17 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.TreeSet;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        TreeSet<String> treeSet = new TreeSet<>();
+        TreeSet<String> treeSet2 = new TreeSet<>();
+        treeSet.add("a");
+        treeSet.add("b");
+        System.out.println(treeSet);
+        treeSet.pollFirst();
+        treeSet2 = (TreeSet)treeSet.subSet("a",true,"b",true);
+        System.out.println(treeSet2);
+        System.out.println("\\");
+        String[] a = new String[]{"dd ", "dsf"};
+        System.out.println(a.length);
     }
 }
